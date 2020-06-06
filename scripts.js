@@ -6,7 +6,7 @@ if (color === ("purple")) {
     $('.north').css('background', 'purple');
 };
 if (number > 100) {
-    $('.east').text("whoah, that's a big number");
+    $('.east').text("whoah, that's a big number");$('.east').css('color', 'black');
 } else {
     $('.east').text("just a regular number, please.");
 };
