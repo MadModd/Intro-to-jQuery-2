@@ -1,11 +1,17 @@
 let color = "purple";
-let number = "10";
-let word = "cool",
-if (color.equals("purple")) {
-    $('.box1').css('background', 'purple');
+let number = "11000";
+let word = "coool";
+
+if (color === ("purple")) {
+    $('.north').css('background', 'purple');
 };
 if (number > 100) {
-    $('.box2').text("whoah, that's a big number"),
-    } else {
-    $('.box2').text("just a regular number, please");
+    $('.east').text("whoah, that's a big number");
+} else {
+    $('.east').text("just a regular number, please.");
+};
+if (word === ("cool")) {
+    $('.south').text("Power of DOM");
+} else {
+    $('.west').text("Power of DOM");
 };
